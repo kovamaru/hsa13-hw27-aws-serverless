@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.zip
+*.tar.gz
+dist/
+build/
+.eggs/
+*.egg-info/
+
+# Pillow layer build artifacts
+pillow-layer/python/
+pillow-layer/layer/
+pillow-layer.zip
+
+# VSCode or JetBrains settings
+.vscode/
+.idea/
+
+# macOS metadata
+.DS_Store
+
+# AWS CLI credentials
+*.pem
+*.crt
+*.key
